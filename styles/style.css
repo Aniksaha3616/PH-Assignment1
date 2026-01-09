@@ -20,6 +20,7 @@
 
 }
 
+
 /* Navbar */
 .container {  
     margin: 0px auto;
@@ -48,5 +49,105 @@ nav .nav-menu a{
     font-size: 16px;
     text-decoration: none;
     color: #000000;
+}
+
+/* Banner-Section */
+.banner{
+    min-height: 90vh;
+    background:
+    /* linear-gradient(
+      rgba(7, 24, 40, 0.85),
+      rgba(7, 24, 40, 0.85)
+    ), */
+    url("../images/hero-bg.png") 
+    center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.banner-content{
+    padding: 115px 120px 179px 120px;
+    align-items: center;
+    justify-items: center;
+    max-width: 1360px;
+ 
+}
+
+.Early-Access{
+    align-items: center;
+    padding: 8px 16px;
+    border-radius: 999px;
+    background: #ffffff;
+    color: #1f7a46;
+    font-size: 16px;
+    line-height: 16px;
+}
+.Early-Access img {
+    width: 10px;
+    height: 10px;
+}
+
+.banner-content h1 {
+    padding-top: 16px;
+    font-size: 70px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.banner-content h1 span {
+  color: #2fb36d;
+}
+.banner-content p {
+  font-size: 18px;
+  
+  color: #d6dde5;
+  max-width: 760px;
+  margin-bottom: 32px;
+}
+
+
+.banner-buttons {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+
+.banner-buttons button {
+  padding: 14px 28px;
+  font-size: 16px;
+  font-weight:600;
+  row-gap: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  
+}
+
+.ban-btn {
+  background: #2fb36d;
+  color: #ffffff;
+}
+
+.ban-btn:hover {
+  background: #24925a;
+  transform: translateY(-2px);
+}
+
+/* sec btn */
+.sec-btn{
+    
+    background: transparent;
+ 
+     color: #ffffff;
+}
+
+.sec-btn:hover {
+  background: rgba(255, 255, 255, 0.1);
+  transform: translateY(-2px);
 }
 
