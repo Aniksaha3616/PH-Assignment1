@@ -151,3 +151,78 @@ nav .nav-menu a{
   transform: translateY(-2px);
 }
 
+/* notes section */
+
+.notes-section{
+    padding: 80px 20px;
+   
+}
+.notes-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+.section-header h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.section-header p {
+    font-size: 16px;
+    color: #627382;
+    
+    margin: 0 auto 60px;
+}
+/* cards */
+.cards h2 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.cards p {
+    font-size: 16px;
+    color: #627382;
+    line-height: 20px;
+}
+.notes-card {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+}
+.cards {
+    background: #ffffff;
+    border-radius: 14px;
+    padding: 32px 24px;
+    
+    box-shadow: 0 8px 24px rgba(15, 23, 42, 0.06);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cards:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 16px 40px rgba(15, 23, 42, 0.1);
+}
+
+/* Card image section */
+.card-img {
+    width: 56px;
+    height: 56px;
+    background-color: #ef4444;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 15px;
+}
+
+.card-img img {
+    width: 26px;
+    height: 26px;
+}
+
+
+
