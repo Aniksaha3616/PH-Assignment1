@@ -224,5 +224,54 @@ nav .nav-menu a{
     height: 26px;
 }
 
+/* Second banner */
+.second-banner{
+    padding: 100px 120px;
+    background: white;
+}
+.brain-container{
+    max-width: 1360px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: center;
+}
 
+.left-image img{
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: auto;
+}
+.right-content span{
+    font-size: 16px;
+    color: #30b868;
+    line-height: 20px;
+}
+.right-content h2{
+    font-size: 48px;
+    font-weight: bold;
+    margin: 14px 0px;
 
+}
+.right-content p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    margin-bottom: 40px;
+}
+.brain-list{
+    list-style: none;
+    padding: 0;
+    margin: 0;    
+}
+.brain-list li{
+    display: flex;
+    align-items: flex-start;
+    font-size: 16px;
+    line-height: 20px;
+    gap: 12px;
+    margin-bottom: 14px;
+    color: #001931;
+}
